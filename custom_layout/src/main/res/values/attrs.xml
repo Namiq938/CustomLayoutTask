@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomLayout">
+        <attr name="android:weightSum" format="float" />
+        <attr name="android:layout_weight" format="float" />
+        <attr name="android:background" format="reference|color" />
+        <attr name="childCornerRadius" format="dimension" />
+        <attr name="childBorderColor" format="reference" />
+        <attr name="childBorderWidth" format="dimension" />
+    </declare-styleable>
+</resources>

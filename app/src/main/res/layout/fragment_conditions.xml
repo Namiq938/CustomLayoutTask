@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".layouts.ConditionsFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/firstConditionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_condition" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/secondConditionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/second_condition" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/thirdConditionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/third_condition" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/fourthConditionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fourth_condition" />
+
+</LinearLayout>

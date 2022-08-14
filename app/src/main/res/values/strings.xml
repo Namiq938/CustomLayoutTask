@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CustomLayout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_condition">First Condition</string>
+    <string name="second_condition">Second Condition</string>
+    <string name="third_condition">Third Condition</string>
+    <string name="fourth_condition">Fourth Condition</string>
+</resources>

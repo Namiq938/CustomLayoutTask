@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph.xml"
+    app:startDestination="@id/conditionsFragment">
+
+    <fragment
+        android:id="@+id/firstConditionFragment"
+        android:name="com.namig.customlayout.layouts.FirstConditionFragment"
+        android:label="FirstConditionFragment" />
+    <fragment
+        android:id="@+id/conditionsFragment"
+        android:name="com.namig.customlayout.layouts.ConditionsFragment"
+        android:label="ConditionsFragment" >
+        <action
+            android:id="@+id/action_conditionsFragment_to_firstConditionFragment"
+            app:destination="@id/firstConditionFragment" />
+        <action
+            android:id="@+id/action_conditionsFragment_to_secondConditionFragment"
+            app:destination="@id/secondConditionFragment2" />
+        <action
+            android:id="@+id/action_conditionsFragment_to_thirdConditionFragment2"
+            app:destination="@id/thirdConditionFragment2" />
+        <action
+            android:id="@+id/action_conditionsFragment_to_fourthFragment"
+            app:destination="@id/fourthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondConditionFragment2"
+        android:name="com.namig.customlayout.layouts.SecondConditionFragment"
+        android:label="SecondConditionFragment" />
+    <fragment
+        android:id="@+id/thirdConditionFragment2"
+        android:name="com.namig.customlayout.layouts.ThirdConditionFragment"
+        android:label="ThirdConditionFragment" />
+    <fragment
+        android:id="@+id/fourthFragment"
+        android:name="com.namig.customlayout.layouts.FourthFragment"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_fourth" />
+</navigation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.namig.custom_layout.CustomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:childBorderColor="@color/teal_700"
+    app:childBorderWidth="4dp"
+    app:childCornerRadius="16dp"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@color/purple_200" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile"
+        android:background="@color/purple_700" />
+
+</com.namig.custom_layout.CustomLayout>
